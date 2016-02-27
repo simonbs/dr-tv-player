@@ -16,6 +16,9 @@ class CollectionView<Layout: NSCollectionViewLayout>: NSCollectionView {
     /// Background color of the collection view.
     var backgroundColor: NSColor?
     
+    // Whether or not the keyboard should ignore keyboard commands.
+    var disableKeyboardCommands = false
+    
     /// Collection view layout set during instantiation.
     var layout: Layout {
         return collectionViewLayout as! Layout
@@ -32,6 +35,18 @@ class CollectionView<Layout: NSCollectionViewLayout>: NSCollectionView {
         if let backgroundColor = backgroundColor {
             backgroundColor.setFill()
             NSRectFill(dirtyRect)
+        }
+    }
+    
+    override func keyDown(theEvent: NSEvent) {
+        if !disableKeyboardCommands {
+            super.keyDown(theEvent)
+        }
+    }
+    
+    override func keyUp(theEvent: NSEvent) {
+        if !disableKeyboardCommands {
+            super.keyUp(theEvent)
         }
     }
 }

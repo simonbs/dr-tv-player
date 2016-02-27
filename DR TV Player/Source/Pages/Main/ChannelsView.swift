@@ -22,6 +22,7 @@ class ChannelsView: View {
         
         collectionView.backgroundColor = .drTvPlayerBackgroundColor()
         collectionView.selectable = true
+        collectionView.disableKeyboardCommands = true
         collectionView.layout.scrollDirection = .Horizontal
         collectionView.layout.minimumInteritemSpacing = 0
         collectionView.layout.minimumLineSpacing = 0
