@@ -18,6 +18,7 @@ class MainViewController: ViewController<MainView> {
     
     override init() {
         super.init()
+        title = NSRunningApplication.currentApplication().localizedName
         channelsController.data.didSelectChannel = { [weak self] in self?.playChannel($0) }
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "willEnterFullScreen:", name: NSWindowWillEnterFullScreenNotification, object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "willExitFullScreen:", name: NSWindowWillExitFullScreenNotification, object: nil)
