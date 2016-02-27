@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7232BD481C8199E800B7E2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7232BD471C8199E800B7E2DA /* Assets.xcassets */; };
+		7232BD4B1C8199E800B7E2DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7232BD491C8199E800B7E2DA /* MainMenu.xib */; };
+		7232BD5B1C819CAA00B7E2DA /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7232BD5A1C819CAA00B7E2DA /* SnapKit.framework */; };
+		7232BD651C819D4A00B7E2DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD601C819D4A00B7E2DA /* AppDelegate.swift */; };
+		7232BD661C819D4B00B7E2DA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD631C819D4A00B7E2DA /* MainView.swift */; };
+		7232BD671C819D4B00B7E2DA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD641C819D4A00B7E2DA /* MainViewController.swift */; };
+		7232BD6F1C819D7500B7E2DA /* ChannelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD6E1C819D7500B7E2DA /* ChannelsView.swift */; };
+		7232BD711C819D7B00B7E2DA /* ChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD701C819D7B00B7E2DA /* ChannelsViewController.swift */; };
+		7232BD751C819DEB00B7E2DA /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD741C819DEB00B7E2DA /* View.swift */; };
+		7232BD771C819DF000B7E2DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD761C819DF000B7E2DA /* ViewController.swift */; };
+		7232BD791C819F2700B7E2DA /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD781C819F2700B7E2DA /* CollectionView.swift */; };
+		7232BD7B1C81A14000B7E2DA /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD7A1C81A14000B7E2DA /* PlayerView.swift */; };
+		7232BD7D1C81A14500B7E2DA /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD7C1C81A14500B7E2DA /* PlayerViewController.swift */; };
+		7232BD7F1C81A1C000B7E2DA /* ChannelsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD7E1C81A1C000B7E2DA /* ChannelsData.swift */; };
+		7232BD811C81A55E00B7E2DA /* ChannelCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD801C81A55E00B7E2DA /* ChannelCollectionViewItem.swift */; };
+		7232BD831C81A56F00B7E2DA /* CollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7232BD821C81A56F00B7E2DA /* CollectionViewItem.swift */; };
+		725F622B1C81BE410079C2ED /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725F622A1C81BE410079C2ED /* Colors.swift */; };
+		72C2142E1C81C24D009D71A8 /* DisabledScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C2142D1C81C24D009D71A8 /* DisabledScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7232BD421C8199E800B7E2DA /* DR TV Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DR TV Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7232BD471C8199E800B7E2DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7232BD4A1C8199E800B7E2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7232BD4C1C8199E800B7E2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7232BD5A1C819CAA00B7E2DA /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/Mac/SnapKit.framework; sourceTree = "<group>"; };
+		7232BD601C819D4A00B7E2DA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7232BD631C819D4A00B7E2DA /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7232BD641C819D4A00B7E2DA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7232BD6E1C819D7500B7E2DA /* ChannelsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsView.swift; sourceTree = "<group>"; };
+		7232BD701C819D7B00B7E2DA /* ChannelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsViewController.swift; sourceTree = "<group>"; };
+		7232BD741C819DEB00B7E2DA /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		7232BD761C819DF000B7E2DA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7232BD781C819F2700B7E2DA /* CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		7232BD7A1C81A14000B7E2DA /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		7232BD7C1C81A14500B7E2DA /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		7232BD7E1C81A1C000B7E2DA /* ChannelsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelsData.swift; sourceTree = "<group>"; };
+		7232BD801C81A55E00B7E2DA /* ChannelCollectionViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelCollectionViewItem.swift; sourceTree = "<group>"; };
+		7232BD821C81A56F00B7E2DA /* CollectionViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewItem.swift; sourceTree = "<group>"; };
+		725F622A1C81BE410079C2ED /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		72C2142D1C81C24D009D71A8 /* DisabledScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisabledScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7232BD3F1C8199E800B7E2DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7232BD5B1C819CAA00B7E2DA /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7232BD391C8199E800B7E2DA = {
+			isa = PBXGroup;
+			children = (
+				7232BD441C8199E800B7E2DA /* DR TV Player */,
+				7232BD591C819C9D00B7E2DA /* Frameworks */,
+				7232BD431C8199E800B7E2DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7232BD431C8199E800B7E2DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD421C8199E800B7E2DA /* DR TV Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7232BD441C8199E800B7E2DA /* DR TV Player */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD471C8199E800B7E2DA /* Assets.xcassets */,
+				7232BD581C819C8800B7E2DA /* User interface */,
+				7232BD5E1C819D4A00B7E2DA /* Source */,
+				7232BD571C819C7E00B7E2DA /* Supporting files */,
+			);
+			path = "DR TV Player";
+			sourceTree = "<group>";
+		};
+		7232BD571C819C7E00B7E2DA /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD4C1C8199E800B7E2DA /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		7232BD581C819C8800B7E2DA /* User interface */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD491C8199E800B7E2DA /* MainMenu.xib */,
+			);
+			name = "User interface";
+			sourceTree = "<group>";
+		};
+		7232BD591C819C9D00B7E2DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD5A1C819CAA00B7E2DA /* SnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7232BD5E1C819D4A00B7E2DA /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD5F1C819D4A00B7E2DA /* Application */,
+				7232BD611C819D4A00B7E2DA /* Pages */,
+				7232BD731C819DDB00B7E2DA /* Utilities */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7232BD5F1C819D4A00B7E2DA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD601C819D4A00B7E2DA /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7232BD611C819D4A00B7E2DA /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD621C819D4A00B7E2DA /* Main */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		7232BD621C819D4A00B7E2DA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD6C1C819D6800B7E2DA /* Channels */,
+				7232BD6D1C819D6C00B7E2DA /* Player */,
+				7232BD631C819D4A00B7E2DA /* MainView.swift */,
+				7232BD641C819D4A00B7E2DA /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7232BD6C1C819D6800B7E2DA /* Channels */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD801C81A55E00B7E2DA /* ChannelCollectionViewItem.swift */,
+				7232BD7E1C81A1C000B7E2DA /* ChannelsData.swift */,
+				7232BD6E1C819D7500B7E2DA /* ChannelsView.swift */,
+				7232BD701C819D7B00B7E2DA /* ChannelsViewController.swift */,
+			);
+			name = Channels;
+			sourceTree = "<group>";
+		};
+		7232BD6D1C819D6C00B7E2DA /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD7A1C81A14000B7E2DA /* PlayerView.swift */,
+				7232BD7C1C81A14500B7E2DA /* PlayerViewController.swift */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		7232BD731C819DDB00B7E2DA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7232BD741C819DEB00B7E2DA /* View.swift */,
+				7232BD761C819DF000B7E2DA /* ViewController.swift */,
+				7232BD781C819F2700B7E2DA /* CollectionView.swift */,
+				7232BD821C81A56F00B7E2DA /* CollectionViewItem.swift */,
+				725F622A1C81BE410079C2ED /* Colors.swift */,
+				72C2142D1C81C24D009D71A8 /* DisabledScrollView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7232BD411C8199E800B7E2DA /* DR TV Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7232BD4F1C8199E800B7E2DA /* Build configuration list for PBXNativeTarget "DR TV Player" */;
+			buildPhases = (
+				7232BD3E1C8199E800B7E2DA /* Sources */,
+				7232BD3F1C8199E800B7E2DA /* Frameworks */,
+				7232BD401C8199E800B7E2DA /* Resources */,
+				7232BD541C819C4E00B7E2DA /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DR TV Player";
+			productName = "DR TV Player";
+			productReference = 7232BD421C8199E800B7E2DA /* DR TV Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7232BD3A1C8199E800B7E2DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SimonBS;
+				TargetAttributes = {
+					7232BD411C8199E800B7E2DA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7232BD3D1C8199E800B7E2DA /* Build configuration list for PBXProject "DR TV Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7232BD391C8199E800B7E2DA;
+			productRefGroup = 7232BD431C8199E800B7E2DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7232BD411C8199E800B7E2DA /* DR TV Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7232BD401C8199E800B7E2DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7232BD481C8199E800B7E2DA /* Assets.xcassets in Resources */,
+				7232BD4B1C8199E800B7E2DA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7232BD541C819C4E00B7E2DA /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/SnapKit.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7232BD3E1C8199E800B7E2DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7232BD831C81A56F00B7E2DA /* CollectionViewItem.swift in Sources */,
+				7232BD7B1C81A14000B7E2DA /* PlayerView.swift in Sources */,
+				72C2142E1C81C24D009D71A8 /* DisabledScrollView.swift in Sources */,
+				7232BD711C819D7B00B7E2DA /* ChannelsViewController.swift in Sources */,
+				725F622B1C81BE410079C2ED /* Colors.swift in Sources */,
+				7232BD6F1C819D7500B7E2DA /* ChannelsView.swift in Sources */,
+				7232BD751C819DEB00B7E2DA /* View.swift in Sources */,
+				7232BD7F1C81A1C000B7E2DA /* ChannelsData.swift in Sources */,
+				7232BD811C81A55E00B7E2DA /* ChannelCollectionViewItem.swift in Sources */,
+				7232BD671C819D4B00B7E2DA /* MainViewController.swift in Sources */,
+				7232BD771C819DF000B7E2DA /* ViewController.swift in Sources */,
+				7232BD651C819D4A00B7E2DA /* AppDelegate.swift in Sources */,
+				7232BD791C819F2700B7E2DA /* CollectionView.swift in Sources */,
+				7232BD661C819D4B00B7E2DA /* MainView.swift in Sources */,
+				7232BD7D1C81A14500B7E2DA /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7232BD491C8199E800B7E2DA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7232BD4A1C8199E800B7E2DA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7232BD4D1C8199E800B7E2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7232BD4E1C8199E800B7E2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7232BD501C8199E800B7E2DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "DR TV Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.simonbs.DR-TV-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7232BD511C8199E800B7E2DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = "DR TV Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dk.simonbs.DR-TV-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7232BD3D1C8199E800B7E2DA /* Build configuration list for PBXProject "DR TV Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7232BD4D1C8199E800B7E2DA /* Debug */,
+				7232BD4E1C8199E800B7E2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7232BD4F1C8199E800B7E2DA /* Build configuration list for PBXNativeTarget "DR TV Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7232BD501C8199E800B7E2DA /* Debug */,
+				7232BD511C8199E800B7E2DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7232BD3A1C8199E800B7E2DA /* Project object */;
+}
