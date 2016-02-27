@@ -17,7 +17,6 @@ class PlayerView: View {
     
     override func setup() {
         super.setup()
-        playerView.showsFullScreenToggleButton = true
         addSubview(playerView)
         playerView.snp_makeConstraints { make in
             make.edges.equalTo(self)
