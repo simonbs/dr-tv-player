@@ -2,7 +2,7 @@
 
 ![App Icon](https://raw.githubusercontent.com/simonbs/dr-tv-player/master/app-icon.png)
 
-View DR TV live streams. Fast.
+OS X app for viewing DR TV live streams. Fast.
 
 ## Features
 
