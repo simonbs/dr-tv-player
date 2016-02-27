@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import AppKitScripting
+import AppKit
 
 /// Scroll view which cannot be scrolled.
 class DisabledScrollView: NSScrollView {
