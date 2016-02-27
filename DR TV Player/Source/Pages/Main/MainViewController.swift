@@ -60,7 +60,7 @@ class MainViewController: ViewController<MainView> {
      - parameter channel: Channel to play.
      */
     private func playChannel(channel: Channel) {
-        playerController.playerURL(channel.url)
+        playerController.playURL(channel.url)
     }
     
     /**

@@ -20,7 +20,7 @@ class PlayerViewController: ViewController<PlayerView> {
         contentView.playerView.player = player
     }
     
-    func playerURL(url: NSURL) {
+    func playURL(url: NSURL) {
         let playerItem = AVPlayerItem(URL: url)
         player.replaceCurrentItemWithPlayerItem(playerItem)
         player.play()
